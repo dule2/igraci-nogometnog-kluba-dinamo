@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Podaci o igračima NK Dinamo">
+    <meta name="author" content="Vaše ime">
+    <title>NK Dinamo Igrači - Tablica</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <h1>Tablica podataka igrača NK Dinamo</h1>
+    <form id="filter-form">
+        <label for="search">Pretraga:</label>
+        <input type="text" id="search" name="search">
+        <label for="filter">Filtriraj po:</label>
+        <select id="filter" name="filter">
+            <option value="">Svi atributi</option>
+            <option value="Ime">Ime</option>
+            <option value="Prezime">Prezime</option>
+            <option value="Pozicija">Pozicija</option>
+        </select>
+        <button type="submit">Primijeni filtar</button>
+    </form>
+    <table id="players-table" class="display">
+        <thead>
+            <tr>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Broj</th>
+                <th>Pozicija</th>
+                <th>Datum rođenja</th>
+                <th>Mjesto rođenja</th>
+                <th>Visina</th>
+                <th>Broj nastupa</th>
+                <th>Broj golova</th>
+                <th>Klubovi</th> 
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function() {
+            var table = $('#players-table').DataTable({
+                ajax: {
+                    url: 'http://localhost:3000/players',
+                    dataSrc: 'data' 
+                },
+                columns: [
+                    { data: 'ime' },
+                    { data: 'prezime' },
+                    { data: 'broj' },
+                    { data: 'pozicija' },
+                    {
+                        data: 'datum_rodenja',
+                        render: function(data) {
+                            if (data) {
+                                return new Date(data).toLocaleDateString('hr-HR'); 
+                            }
+                            return '';
+                        }
+                    },
+                    { data: 'mjesto_rodenja' },
+                    { data: 'visina' },
+                    { data: 'broj_nastupa' },
+                    { data: 'broj_golova' },
+                    { data: 'klubovi' }
+                ]
+            });
+
+            $('#filter-form').submit(function(e) {
+                e.preventDefault();
+                var searchTerm = $('#search').val();
+                var filter = $('#filter').val();
+                
+                if (filter) {
+                    table.columns(':contains(' + filter + ')').search(searchTerm).draw();
+                } else {
+                    table.search(searchTerm).draw();
+                }
+            });
+            $('#export-json').click(function() {
+                const data = table.rows({ search: 'applied' }).data().toArray();
+                const json = JSON.stringify(data, null, 2); 
+
+                const blob = new Blob([json], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'filtered_data.json';
+                link.click();
+            });
+            $('#export-csv').click(function() {
+                const data = table.rows({ search: 'applied' }).data().toArray();
+                const csv = data.map(row => Object.values(row).join(',')).join('\n');
+
+                // Create a Blob and download
+                const blob = new Blob([csv], { type: 'text/csv' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'filtered_data.csv';
+                link.click();
+            });
+        });
+    </script>
+    <button id="export-json">Export JSON</button>
+    <button id="export-csv">Export CSV</button>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://igraci-dinamo.com/data.json",
+    "title": "Igraci Dinama",
+    "type": "array",
+    "description": "Skup igraca nogometnog kluba Dinamo.",
+    "items": {
+        "title": "A Schema",
+        "type": "object",
+        "description": "Objekt koji sadrži sve podatke o jednom igracu.",
+        "required": [
+            "Ime",
+            "Prezime",
+            "Broj",
+            "Pozicija",
+            "Datum_rodenja",
+            "Mjesto_rodenja",
+            "Visina",
+            "Broj_nastupa",
+            "Broj_golova",
+            "Prosli_klubovi"
+        ],
+        "properties": {
+            "Ime": {
+                "title": "Ime",
+                "type": "string"
+            },
+            "Prezime": {
+                "title": "Prezime",
+                "type": "string"
+            },
+            "Broj": {
+                "title": "Broj",
+                "type": "integer"
+            },
+            "Pozicija": {
+                "title": "Pozicija",
+                "type": "string"
+            },
+            "Datum_rodenja": {
+                "title": "Datum_rodenja",
+                "type": "string"
+            },
+            "Mjesto_rodenja": {
+                "title": "Mjesto_rodenja",
+                "type": "string"
+            },
+            "Visina": {
+                "title": "Visina",
+                "type": "integer"
+            },
+            "Broj_nastupa": {
+                "title": "Broj_nastupa",
+                "type": "integer"
+            },
+            "Broj_golova": {
+                "title": "Broj_golova",
+                "type": "integer"
+            },
+            "Prosli_klubovi": {
+                "title": "Prosli_klubovi",
+                "type": "array",
+                "items": {
+                    "title": "Klub",
+                    "type": "object",
+                    "required": [
+                        "Ime_kluba",
+                        "Grad_kluba"
+                    ],
+                    "properties": {
+                        "Ime_kluba": {
+                            "title": "Ime_kluba",
+                            "type": "string"
+                        },
+                        "Grad_kluba": {
+                            "title": "Grad_kluba",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
