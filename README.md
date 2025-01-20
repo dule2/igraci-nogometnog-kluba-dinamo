@@ -6,7 +6,7 @@ Korištena je CC0 licenca iz razloga što se do podataka došlo vlastitim istra�
 Josip Duvančić 
 
 ## Verzija podataka
-1.0
+4.0
 
 ## Jezik podataka
 hrvatski
@@ -27,4 +27,4 @@ mjesečno
 27.10.2024.
 
 ## Datum zadnje izmjene baze
-27.10.2024.
+19.1.2025.
