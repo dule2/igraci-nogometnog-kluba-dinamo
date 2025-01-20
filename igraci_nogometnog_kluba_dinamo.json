@@ -1,267 +1,146 @@
-[{
-    "Ime": "Arijan",
-    "Prezime": "Ademi",
-    "Broj": 5,
-    "Pozicija": "vezni",
-    "Datum_rodenja": "1991-05-29",
-    "Mjesto_rodenja": "Šibenik",
-    "Visina": 184,
-    "Broj_nastupa": 413,
-    "Broj_golova": 47,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Šibenik",
-            "Grad_kluba": "Šibenik"
-        },
-        {
-            "Ime_kluba": "Lokomotiva",
-            "Grad_kluba": "Zagreb"
-        }
-    ]
-}, {
-    "Ime": "Raúl",
-    "Prezime": "Torrente",
-    "Broj": 4,
-    "Pozicija": "branič",
-    "Datum_rodenja": "2001-09-11",
-    "Mjesto_rodenja": "Murcia",
-    "Visina": 193,
-    "Broj_nastupa": 8,
-    "Broj_golova": 2,
-    "Prosli_klubovi": [{
-        "Ime_kluba": "Granada FC",
-        "Grad_kluba": "Granada"
-    }]
-}, {
-    "Ime": "Bruno",
-    "Prezime": "Petković",
-    "Broj": 9,
-    "Pozicija": "napadač",
-    "Datum_rodenja": "1994-09-16",
-    "Mjesto_rodenja": "Metković",
-    "Visina": 193,
-    "Broj_nastupa": 265,
-    "Broj_golova": 83,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Zagreb",
-            "Grad_kluba": "Zagreb"
-        },
-        {
-            "Ime_kluba": "Neretva",
-            "Grad_kluba": "Neretva"
-        },
-        {
-            "Ime_kluba": "HAŠK",
-            "Grad_kluba": "Zagreb"
-        },
-        {
-            "Ime_kluba": "Hrvatski dragovoljac",
-            "Grad_kluba": "Zagreb"
-        },
-        {
-            "Ime_kluba": "Catania",
-            "Grad_kluba": "Catania"
-        },
-        {
-            "Ime_kluba": "Varese",
-            "Grad_kluba": "Varese"
-        },
-        {
-            "Ime_kluba": "Reggiana",
-            "Grad_kluba": "Reggio Emilia"
-        },
-        {
-            "Ime_kluba": "Virtus Entella",
-            "Grad_kluba": "Chiavari"
-        },
-        {
-            "Ime_kluba": "Trapani",
-            "Grad_kluba": "Trapani"
-        },
-        {
-            "Ime_kluba": "Bologna",
-            "Grad_kluba": "Bologna"
-        },
-        {
-            "Ime_kluba": "Verona",
-            "Grad_kluba": "Verona"
-        }
-    ]
-}, {
-    "Ime": "Martin",
-    "Prezime": "Baturina",
-    "Broj": 10,
-    "Pozicija": "vezni",
-    "Datum_rodenja": "2003-02-16",
-    "Mjesto_rodenja": "Split",
-    "Visina": 172,
-    "Broj_nastupa": 131,
-    "Broj_golova": 18,
-    "Prosli_klubovi": [{
-        "Ime_kluba": "-",
-        "Grad_kluba": "-"
-    }]
-}, {
-    "Ime": "Dario",
-    "Prezime": "Špikić",
-    "Broj": 77,
-    "Pozicija": "napadač",
-    "Datum_rodenja": "1999-03-22",
-    "Mjesto_rodenja": "Zagreb",
-    "Visina": 183,
-    "Broj_nastupa": 132,
-    "Broj_golova": 18,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Hajduk",
-            "Grad_kluba": "Split"
-        },
-        {
-            "Ime_kluba": "Gorinca",
-            "Grad_kluba": "Velika Gorica"
-        }
-    ]
-}, {
-    "Ime": "Sandro",
-    "Prezime": "Kulenović",
-    "Broj": 17,
-    "Pozicija": "napadač",
-    "Datum_rodenja": "1999-12-04",
-    "Mjesto_rodenja": "Zagreb",
-    "Visina": 191,
-    "Broj_nastupa": 67,
-    "Broj_golova": 20,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Legia Warsaw",
-            "Grad_kluba": "Warsaw"
-        },
-        {
-            "Ime_kluba": "Rijeka",
-            "Grad_kluba": "Rijeka"
-        },
-        {
-            "Ime_kluba": "Juventus U19",
-            "Grad_kluba": "Turin"
-        }
-    ]
-}, {
-    "Ime": "Kevin",
-    "Prezime": "Teophile-Catherine",
-    "Broj": 28,
-    "Pozicija": "branič",
-    "Datum_rodenja": "1989-10-28",
-    "Mjesto_rodenja": "Saint-Brieuc",
-    "Visina": 183,
-    "Broj_nastupa": 191,
-    "Broj_golova": 4,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Rennes",
-            "Grad_kluba": "Rennes"
-        },
-        {
-            "Ime_kluba": "Cardiff City",
-            "Grad_kluba": "Cardiff"
-        },
-        {
-            "Ime_kluba": "Saint-Étienne",
-            "Grad_kluba": "Saint-Étienne"
-        }
-    ]
-}, {
-    "Ime": "Ivan",
-    "Prezime": "Nevistić",
-    "Broj": 33,
-    "Pozicija": "vratar",
-    "Datum_rodenja": "1998-07-31",
-    "Mjesto_rodenja": "Đakovo",
-    "Visina": 193,
-    "Broj_nastupa": 48,
-    "Broj_golova": 0,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Rijeka",
-            "Grad_kluba": "Rijeka"
-        },
-        {
-            "Ime_kluba": "Varaždin",
-            "Grad_kluba": "Varaždin"
-        },
-        {
-            "Ime_kluba": "NŠ Mura",
-            "Grad_kluba": "Murska Sobota"
-        },
-        {
-            "Ime_kluba": "Osijek",
-            "Grad_kluba": "Osijek"
-        }
-    ]
-}, {
-    "Ime": "Petar",
-    "Prezime": "Sučić",
-    "Broj": 25,
-    "Pozicija": "vezni",
-    "Datum_rodenja": "2003-10-25",
-    "Mjesto_rodenja": "Livno",
-    "Visina": 183,
-    "Broj_nastupa": 56,
-    "Broj_golova": 3,
-    "Prosli_klubovi": [{
-        "Ime_kluba": "-",
-        "Grad_kluba": "-"
-    }]
-}, {
-    "Ime": "Josip",
-    "Prezime": "Mišić",
-    "Broj": 27,
-    "Pozicija": "vezni",
-    "Datum_rodenja": "1994-06-28",
-    "Mjesto_rodenja": "Vinkovci",
-    "Visina": 187,
-    "Broj_nastupa": 187,
-    "Broj_golova": 6,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Osijek",
-            "Grad_kluba": "Osijek"
-        },
-        {
-            "Ime_kluba": "Rijeka",
-            "Grad_kluba": "Rijeka"
-        },
-        {
-            "Ime_kluba": "Spezia",
-            "Grad_kluba": "La Spezia"
-        },
-        {
-            "Ime_kluba": "Sporting",
-            "Grad_kluba": "Lisbon"
-        },
-        {
-            "Ime_kluba": "PAOK",
-            "Grad_kluba": "Thessaloniki"
-        }
-    ]
-}, {
-    "Ime": "Maxime",
-    "Prezime": "Bernauer",
-    "Broj": 6,
-    "Pozicija": "branič",
-    "Datum_rodenja": "1998-07-01",
-    "Mjesto_rodenja": "Hennebont",
-    "Visina": 186,
-    "Broj_nastupa": 33,
-    "Broj_golova": 2,
-    "Prosli_klubovi": [{
-            "Ime_kluba": "Rennes",
-            "Grad_kluba": "Rennes"
-        },
-        {
-            "Ime_kluba": "Concarneau",
-            "Grad_kluba": "Concarneau"
-        },
-        {
-            "Ime_kluba": "Le Mans FC",
-            "Grad_kluba": "Le Mans"
-        },
-        {
-            "Ime_kluba": "Paris FC ",
-            "Grad_kluba": "Paris"
-        }
-    ]
-}]
+[
+  {
+    "ime": "Arijan",
+    "prezime": "Ademi",
+    "broj": 5,
+    "pozicija": "vezni",
+    "datum_rodenja": "1991-05-28T22:00:00.000Z",
+    "mjesto_rodenja": "Šibenik",
+    "visina": 184,
+    "broj_nastupa": 413,
+    "broj_golova": 47,
+    "klubovi": "Šibenik (Šibenik), Lokomotiva (Zagreb)"
+  },
+  {
+    "ime": "Raúl",
+    "prezime": "Torrente",
+    "broj": 4,
+    "pozicija": "branič",
+    "datum_rodenja": "2001-09-10T22:00:00.000Z",
+    "mjesto_rodenja": "Murcia",
+    "visina": 193,
+    "broj_nastupa": 8,
+    "broj_golova": 2,
+    "klubovi": "Granada FC (Granada)"
+  },
+  {
+    "ime": "Bruno",
+    "prezime": "Petković",
+    "broj": 9,
+    "pozicija": "napadač",
+    "datum_rodenja": "1994-09-15T22:00:00.000Z",
+    "mjesto_rodenja": "Metković",
+    "visina": 193,
+    "broj_nastupa": 265,
+    "broj_golova": 83,
+    "klubovi": "Zagreb (Zagreb), Neretva (Neretva), HAŠK (Zagreb), Hrvatski dragovoljac (Zagreb), Catania (Catania), Varese (Varese), Reggiana (Reggio Emilia), Virtus Entella (Chiavari), Trapani (Trapani), Bologna (Bologna), Verona (Verona)"
+  },
+  {
+    "ime": "Niko",
+    "prezime": "Galešić",
+    "broj": 15,
+    "pozicija": "branič",
+    "datum_rodenja": "2001-03-25T22:00:00.000Z",
+    "mjesto_rodenja": "Berlin",
+    "visina": 182,
+    "broj_nastupa": 1,
+    "broj_golova": 0,
+    "klubovi": "- (-)"
+  },
+  {
+    "ime": "Martin",
+    "prezime": "Baturina",
+    "broj": 10,
+    "pozicija": "vezni",
+    "datum_rodenja": "2003-02-15T23:00:00.000Z",
+    "mjesto_rodenja": "Split",
+    "visina": 172,
+    "broj_nastupa": 131,
+    "broj_golova": 18,
+    "klubovi": "- (-)"
+  },
+  {
+    "ime": "Dario",
+    "prezime": "Špikić",
+    "broj": 77,
+    "pozicija": "napadač",
+    "datum_rodenja": "1999-03-21T23:00:00.000Z",
+    "mjesto_rodenja": "Zagreb",
+    "visina": 183,
+    "broj_nastupa": 132,
+    "broj_golova": 18,
+    "klubovi": "Hajduk (Split), Gorinca (Velika Gorica)"
+  },
+  {
+    "ime": "Sandro",
+    "prezime": "Kulenović",
+    "broj": 17,
+    "pozicija": "napadač",
+    "datum_rodenja": "1999-12-03T23:00:00.000Z",
+    "mjesto_rodenja": "Zagreb",
+    "visina": 191,
+    "broj_nastupa": 67,
+    "broj_golova": 20,
+    "klubovi": "Legia Warsaw (Warsaw), Rijeka (Rijeka), Juventus U19 (Turin)"
+  },
+  {
+    "ime": "Kevin",
+    "prezime": "Teophile-Catherine",
+    "broj": 28,
+    "pozicija": "branič",
+    "datum_rodenja": "1989-10-27T23:00:00.000Z",
+    "mjesto_rodenja": "Saint-Brieuc",
+    "visina": 183,
+    "broj_nastupa": 191,
+    "broj_golova": 4,
+    "klubovi": "Rennes (Rennes), Cardiff City (Cardiff), Saint-Étienne (Saint-Étienne)"
+  },
+  {
+    "ime": "Ivan",
+    "prezime": "Nevistić",
+    "broj": 33,
+    "pozicija": "vratar",
+    "datum_rodenja": "1998-07-30T22:00:00.000Z",
+    "mjesto_rodenja": "Đakovo",
+    "visina": 193,
+    "broj_nastupa": 48,
+    "broj_golova": 0,
+    "klubovi": "Rijeka (Rijeka), Varaždin (Varaždin), NŠ Mura (Murska Sobota), Osijek (Osijek)"
+  },
+  {
+    "ime": "Petar",
+    "prezime": "Sučić",
+    "broj": 25,
+    "pozicija": "vezni",
+    "datum_rodenja": "2003-10-24T22:00:00.000Z",
+    "mjesto_rodenja": "Livno",
+    "visina": 183,
+    "broj_nastupa": 56,
+    "broj_golova": 3,
+    "klubovi": "- (-)"
+  },
+  {
+    "ime": "Josip",
+    "prezime": "Mišić",
+    "broj": 27,
+    "pozicija": "vezni",
+    "datum_rodenja": "1994-06-27T22:00:00.000Z",
+    "mjesto_rodenja": "Vinkovci",
+    "visina": 187,
+    "broj_nastupa": 187,
+    "broj_golova": 6,
+    "klubovi": "Osijek (Osijek), Rijeka (Rijeka), Spezia (La Spezia), Sporting (Lisbon), PAOK (Thessaloniki)"
+  },
+  {
+    "ime": "Maxime",
+    "prezime": "Bernauer",
+    "broj": 6,
+    "pozicija": "branič",
+    "datum_rodenja": "1998-06-30T22:00:00.000Z",
+    "mjesto_rodenja": "Hennebont",
+    "visina": 186,
+    "broj_nastupa": 33,
+    "broj_golova": 2,
+    "klubovi": "Rennes (Rennes), Concarneau (Concarneau), Le Mans FC (Le Mans), Paris FC  (Paris)"
+  }
+]
